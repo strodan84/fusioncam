@@ -1,5 +1,3 @@
-# physics/blackbody_emission.py
-
 import numpy as np
 
 sigma = 5.670374419e-8  # Stefan-Boltzmann constant (W/m^2/K^4)
