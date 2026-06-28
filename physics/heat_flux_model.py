@@ -35,7 +35,7 @@ materials = {
 }
 
 # Set which material PFC is made of:
-material = materials["Tungsten"]
+material = materials["Graphite"]
 
 def surface_energy_balance(
     q_in,
