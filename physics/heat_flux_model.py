@@ -142,9 +142,11 @@ def demo_heat_pulse():
     Example:
     - plasma shot lasting ~1 second
     - Gaussian-like heat flux profile
+
+    NSTX-U: plasma pulses are typically 1-5 seconds (historically around 1-2 s, with longer pulses as operating goals increase).
     """
 
-    t = np.linspace(0, 1.0, 500)
+    t = np.linspace(0, 2.0, 1000) 
 
     q_peak = 5e6  # 5 MW/m^2 (typical divertor scale)
     q_in = q_peak * np.exp(-((t - 0.5)**2) / 0.02)
