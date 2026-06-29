@@ -8,7 +8,8 @@ The goal of this project is to explore the end-to-end design considerations of a
 
 This project is not tied to a specific experimental implementation, but is intended as a physics-informed systems design exercise bridging experimental condensed matter physics, detector instrumentation, and fusion diagnostics.
 
-![Plasma heat flux to digital image flow diagram](/figures/heat_flux_to_digital_image_flow.png)
+
+<img src="/figures/heat_flux_to_digital_image_flow.png" width="200"/>
 
 ---
 
