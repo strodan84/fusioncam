@@ -1,8 +1,8 @@
-# Fusion Diagnostic Camera System (FDCS): Conceptual Design of a Radiation-Hardened Multispectral Diagnostic System for Fusion Plasma-Facing Components
+# PlasmaSkope: Conceptual Design of a Radiation-Hardened Multispectral Diagnostic System for Fusion Plasma-Facing Components
 
 ## Overview
 
-FDCS is a conceptual design study for a multispectral imaging diagnostic system intended for monitoring **plasma-facing components (PFCs)** in magnetically confined fusion devices such as tokamaks.
+PlasmaSkope is a conceptual design study for a multispectral imaging diagnostic system intended for monitoring **plasma-facing components (PFCs)** in magnetically confined fusion devices such as tokamaks.
 
 The goal of this project is to explore the end-to-end design considerations of a robust optical diagnostic system capable of operating in extreme fusion environments characterized by high heat flux, intense radiation fields, strong magnetic fields, and limited physical access.
 
@@ -30,13 +30,13 @@ Reliable, real-time diagnostics of these processes are essential for:
 - validating plasma-material interaction models
 - enabling safe long-pulse operation in future fusion reactors
 
-FDCS explores a diagnostic architecture inspired by modern scientific imaging systems, adapted to the constraints of fusion environments.
+PlasmaSkope explores a diagnostic architecture inspired by modern scientific imaging systems, adapted to the constraints of fusion environments.
 
 ---
 
 ## System Concept
 
-FDCS is a modular imaging system composed of four main subsystems:
+PlasmaSkope is a modular imaging system composed of four main subsystems:
 
 1. **Optical Collection System**
    - Sapphire or fused silica viewport
@@ -79,7 +79,7 @@ These models are implemented in Python to provide order-of-magnitude design cons
 
 ## Key Design Considerations
 
-FDCS is designed under the following constraints typical of fusion environments:
+PlasmaSkope is designed under the following constraints typical of fusion environments:
 
 - **Radiation hardness:** sensor and electronics survivability under neutron/gamma flux
 - **Magnetic field compatibility:** operation in strong static magnetic fields
@@ -126,7 +126,7 @@ Future extensions may include:
 
 ## Relevance to Fusion Diagnostics
 
-FDCS is motivated by diagnostic systems used in modern tokamaks, where optical and infrared imaging systems play a critical role in:
+PlasmaSkope is motivated by diagnostic systems used in modern tokamaks, where optical and infrared imaging systems play a critical role in:
 
 - plasma-facing component monitoring
 - edge plasma diagnostics
